@@ -8,6 +8,7 @@
         tools:context=".MainActivity"
         android:padding="10dp">
 
+
     <Button
             android:text="Show Toast"
             android:layout_width="wrap_content"
@@ -15,4 +16,16 @@
             android:id="@+id/btnToast"
             android:layout_alignParentTop="true" android:layout_marginTop="75dp"
             android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="Send to next intent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btnSendToNext"
+            android:layout_below="@+id/btnToast"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your text here"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_below="@+id/btnSendToNext"/>
 </RelativeLayout>
