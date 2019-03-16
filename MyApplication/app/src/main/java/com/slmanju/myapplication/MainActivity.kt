@@ -27,5 +27,10 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra("user_message", userMsg)
             startActivity(intent)
         }
+
+        btnRecycleView.setOnClickListener {
+            val intent = Intent(this, HobbiesActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

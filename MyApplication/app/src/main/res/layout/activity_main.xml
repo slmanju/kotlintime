@@ -28,4 +28,10 @@
             android:ems="10"
             android:id="@+id/editText"
             android:layout_marginTop="163dp" android:layout_alignParentTop="true"/>
+    <Button
+            android:text="Recycle View and Card View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/btnRecycleView"
+            android:layout_marginTop="307dp" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+            android:layout_marginStart="103dp"/>
 </RelativeLayout>
