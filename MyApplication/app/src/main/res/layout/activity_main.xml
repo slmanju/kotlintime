@@ -14,18 +14,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btnToast"
-            android:layout_alignParentTop="true" android:layout_marginTop="75dp"
-            android:layout_centerHorizontal="true"/>
+            android:layout_alignParentTop="true" android:layout_marginTop="83dp"
+            android:layout_alignParentStart="true" android:layout_marginStart="148dp"/>
     <Button
             android:text="Send to next intent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/btnSendToNext"
-            android:layout_below="@+id/btnToast"/>
+            android:layout_marginTop="238dp" android:layout_alignParentTop="true"/>
     <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter your text here"
             android:ems="10"
             android:id="@+id/editText"
-            android:layout_below="@+id/btnSendToNext"/>
+            android:layout_marginTop="163dp" android:layout_alignParentTop="true"/>
 </RelativeLayout>
