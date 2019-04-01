@@ -4,6 +4,32 @@ fun main(args: Array<String>) {
     dayOfWeek(5)
     whatDay(7)
     examResult(60)
+    printType(124)
+
+    println("29 is ${racer(29)}")
+    println("30 is ${racer(30)}")
+    println("31 is ${racer(31)}")
+    println("40 is ${racer(40)}")
+    println("41 is ${racer(41)}")
+    println("42 is ${racer(42)}")
+}
+
+private fun racer(speed: Int): String {
+    return when {
+        speed in 0..24 -> "Beginner"
+        speed in 24..30 -> "Intermediate"
+        speed in 30..41 -> "Average"
+        speed > 41 -> "Pro"
+        else -> "Invalid speed"
+    }
+}
+
+private fun printType(number: Int) {
+    when {
+        number < 0 -> println("Negative number")
+        number % 2 == 0 -> println("Even number")
+        else -> println("Positive odd number")
+    }
 }
 
 private fun examResult(marks: Int) {
